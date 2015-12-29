@@ -18,14 +18,14 @@ $ads = $ads->getAds();
         foreach ($ads as $ads) {
             ?>
             <div class="ossn-ads-item">
-                <a class="a-heading" href="<?php echo $ads->site_url; ?>" target="_blank"><?php echo $ads->title; ?></a>
+                <a class="a-heading" href="<?php echo $ads->site_url; ?>" target="_blank"><?php echo $ads->title; ?>
 
                 <div class="ossn-ads-link"> <?php echo $ads->site_url; ?> </div>
                 <img src="<?php echo ossn_ads_image_url($ads->guid); ?>"/>
 
                 <div class="descript">
                     <?php echo $ads->description; ?>
-                </div>
+                </div></a>
 
             </div>
 
@@ -34,4 +34,3 @@ $ads = $ads->getAds();
     }
     ?>
 </div>       
-       

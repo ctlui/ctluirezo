@@ -143,7 +143,7 @@ margin-top: 16px;
 }
 #ossn-header-login {
 float: right;
-margin-top: -60px;
+margin-top: -69px;
 padding: 6px;
 }
 #ossn-header-login label {

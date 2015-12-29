@@ -35,11 +35,6 @@ if (isset($params['contents'])) {
     <script>
         <?php echo ossn_fetch_extend_views('ossn/js/head'); ?>
     </script>
-
-
-
-
-
 </head>
 
 <body>
